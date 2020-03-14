@@ -23,6 +23,10 @@ body {
     padding: 0px 10px;
     font-size: 17px;
 }
+
+table, th, td {
+    border: 1px solid black;
+  }
    
 /* Set black background color, white text and some padding */
 footer {
