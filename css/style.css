@@ -27,6 +27,10 @@ body {
 table, th, td {
     border: 1px solid black;
   }
+
+.indent {
+    text-indent: 50px;
+}
    
 /* Set black background color, white text and some padding */
 footer {
