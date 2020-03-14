@@ -2,11 +2,6 @@ body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
-/* .navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-} */
-      
 /* Set height of the grid so .sidenav can be 100% */
 .row.content {height: 450px}
       
@@ -15,14 +10,27 @@ body {
     padding-top: 20px;
     background-color: #f1f1f1;
     height: 100%;
-    /* padding: 20px; */
+    width: 300px;
+    font-size: 18px;
+    position: fixed;
+    z-index: 1;
+    display: block;
+    overflow-x: hidden;
 }
-      
+
+.text-left {
+    margin-left: 300px;
+    padding: 0px 10px;
+    font-size: 17px;
+}
+   
 /* Set black background color, white text and some padding */
 footer {
+    /* margin-left: 300px; */
     background-color: #555;
     color: white;
     padding: 15px;
+    text-align: center;
 }
       
 /* On small screens, set height to 'auto' for sidenav and grid */
@@ -30,6 +38,17 @@ footer {
     .sidenav {
         height: auto;
         padding: 15px;
+        width: 40%;
+    }
+    .text-left {
+        margin-left: 40%;
     }
     .row.content {height:auto;} 
+    .client-server-computing-img {
+        height: 200px;
+        width: 100%;
+    }
+    .collapse navbar-collapse {
+        width: 100%;
+    }
 }
