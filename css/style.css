@@ -31,6 +31,28 @@ table, th, td {
 .indent {
     text-indent: 50px;
 }
+
+/* CMS Installation Images */
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 100%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
    
 /* Set black background color, white text and some padding */
 footer {
@@ -52,11 +74,30 @@ footer {
         margin-left: 40%;
     }
     .row.content {height:auto;} 
+
     .client-server-computing-img {
         height: 200px;
         width: 100%;
     }
     .collapse navbar-collapse {
         width: 100%;
+    }
+
+    /* CMS Installation Images */
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 100%;
+    }
+    
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
     }
 }
